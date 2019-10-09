@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-09T22:41:26 JST" name="Suite" finished-at="2019-10-09T22:41:26 JST" duration-ms="93">
+    <groups>
+    </groups>
+    <test started-at="2019-10-09T22:41:26 JST" name="Test" finished-at="2019-10-09T22:41:26 JST" duration-ms="93">
+      <class name="calculatorTestNG.calculatorTest">
+        <test-method signature="Add(int, int)[pri:1, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="Add" finished-at="2019-10-09T22:41:26 JST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="subtract(int, int)[pri:2, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="subtract" finished-at="2019-10-09T22:41:26 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract -->
+        <test-method signature="divide(int, int)[pri:3, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="divide" finished-at="2019-10-09T22:41:26 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divide -->
+        <test-method signature="multiply(int, int)[pri:4, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="multiply" finished-at="2019-10-09T22:41:26 JST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+      </class> <!-- calculatorTestNG.calculatorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
