@@ -1,7 +1,4 @@
 package calculatorTestNG;
-
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -10,7 +7,7 @@ import calculator.calculator;
 public class calculatorTest {
 	calculator objcal = new calculator();
 	
-	
+//using testng.xml for user input	
 	  @Parameters({"param1", "param2"})
 	  
 	  @Test(priority=1) public void Add(int param1,int param2) {

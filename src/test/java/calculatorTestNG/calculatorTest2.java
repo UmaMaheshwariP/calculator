@@ -1,19 +1,16 @@
 package calculatorTestNG;
-
-
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import calculator.calculator;
 
+//using Data Provider for UserInput
 public class calculatorTest2 {
 	calculator objcal = new calculator();
 	
 	@Test(priority=1,dataProvider = "provideNumbers")
 	public void Add1(int num1, int num2) {
 		System.out.println("Addition result :" + objcal.Add(num1, num2));
-		//Assert.assertEquals(num1, num1);
 	}
 	
 	@Test(priority=2,dataProvider = "provideNumbers")
