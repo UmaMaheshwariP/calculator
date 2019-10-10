@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-09T22:41:26 JST" name="Suite" finished-at="2019-10-09T22:41:26 JST" duration-ms="93">
+  <suite started-at="2019-10-10T11:36:20 JST" name="Suite" finished-at="2019-10-10T11:36:20 JST" duration-ms="199">
     <groups>
     </groups>
-    <test started-at="2019-10-09T22:41:26 JST" name="Test" finished-at="2019-10-09T22:41:26 JST" duration-ms="93">
+    <test started-at="2019-10-10T11:36:20 JST" name="Test" finished-at="2019-10-10T11:36:20 JST" duration-ms="199">
       <class name="calculatorTestNG.calculatorTest">
-        <test-method signature="Add(int, int)[pri:1, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="Add" finished-at="2019-10-09T22:41:26 JST" duration-ms="13" status="PASS">
+        <test-method signature="Add(int, int)[pri:1, instance:calculatorTestNG.calculatorTest@41ee392b]" started-at="2019-10-10T11:36:20 JST" name="Add" finished-at="2019-10-10T11:36:20 JST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add -->
-        <test-method signature="subtract(int, int)[pri:2, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="subtract" finished-at="2019-10-09T22:41:26 JST" duration-ms="2" status="PASS">
+        <test-method signature="subtract(int, int)[pri:2, instance:calculatorTestNG.calculatorTest@41ee392b]" started-at="2019-10-10T11:36:20 JST" name="subtract" finished-at="2019-10-10T11:36:20 JST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtract -->
-        <test-method signature="divide(int, int)[pri:3, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="divide" finished-at="2019-10-09T22:41:26 JST" duration-ms="2" status="PASS">
+        <test-method signature="divide(int, int)[pri:3, instance:calculatorTestNG.calculatorTest@41ee392b]" started-at="2019-10-10T11:36:20 JST" name="divide" finished-at="2019-10-10T11:36:20 JST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divide -->
-        <test-method signature="multiply(int, int)[pri:4, instance:calculatorTestNG.calculatorTest@44a664f2]" started-at="2019-10-09T22:41:26 JST" name="multiply" finished-at="2019-10-09T22:41:26 JST" duration-ms="18" status="PASS">
+        <test-method signature="multiply(int, int)[pri:4, instance:calculatorTestNG.calculatorTest@41ee392b]" started-at="2019-10-10T11:36:20 JST" name="multiply" finished-at="2019-10-10T11:36:20 JST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,6 +72,200 @@
           </reporter-output>
         </test-method> <!-- multiply -->
       </class> <!-- calculatorTestNG.calculatorTest -->
+      <class name="calculatorTestNG.calculatorTest2">
+        <test-method signature="Add1(int, int)[pri:1, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="Add1" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add1 -->
+        <test-method signature="Add1(int, int)[pri:1, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="Add1" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add1 -->
+        <test-method signature="Add1(int, int)[pri:1, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="Add1" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add1 -->
+        <test-method signature="subtract1(int, int)[pri:2, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="subtract1" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract1 -->
+        <test-method signature="subtract1(int, int)[pri:2, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="subtract1" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract1 -->
+        <test-method signature="subtract1(int, int)[pri:2, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="subtract1" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract1 -->
+        <test-method signature="divide2(int, int)[pri:3, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="divide2" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divide2 -->
+        <test-method signature="divide2(int, int)[pri:3, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="divide2" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divide2 -->
+        <test-method signature="divide2(int, int)[pri:3, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="divide2" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divide2 -->
+        <test-method signature="multiply3(int, int)[pri:4, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="multiply3" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply3 -->
+        <test-method signature="multiply3(int, int)[pri:4, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="multiply3" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply3 -->
+        <test-method signature="multiply3(int, int)[pri:4, instance:calculatorTestNG.calculatorTest2@1e67a849]" started-at="2019-10-10T11:36:20 JST" name="multiply3" data-provider="provideNumbers" finished-at="2019-10-10T11:36:20 JST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply3 -->
+      </class> <!-- calculatorTestNG.calculatorTest2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

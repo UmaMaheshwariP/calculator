@@ -3,4 +3,13 @@
   <groupId>calculate</groupId>
   <artifactId>calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  <dependencies>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.0.0</version>
+    <scope>test</scope>
+</dependency>
+ </dependencies> 
 </project>
